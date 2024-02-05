@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df46222a6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>            
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Hariprasath V K</span></h1>
+            <p>Mern Stack Developer</p>
+            <!-- <p class='introPara'>Versatile MERN stack developer skilled in crafting dynamic web solutions with <br>MongoDB, Express.js, React, and Node.js for optimal user experiences.</p> -->
+        </div>
+        <div class="coverimage">
+            <image src="assets/bg3.png"></image>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-------------About Section---------------->
+
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a MERN stack enthusiast, seamlessly weaving together MongoDB, Express, React, and Node.js to bring web ideas to life. With a passion for clean code and user-centric design, I thrive on transforming concepts into captivating online experiences.</p>
+                    <div class="tab-titles">
+                        <p class='tab-links active-link' onclick="opentab('skills')">Skills</p>
+                        <p class='tab-links' onclick="opentab('experience')">Experience</p>
+                        <p class='tab-links' onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-present</span><br>Mern Stack Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>BE at Sri Eshwar College Of Engineering</li>
+                            <li><span>2020-2021</span><br>Higher Secondary at Forest Hill Academy Mat Hr Sec School</li>
+                            <li><span>2019-2020</span><br>SSLC at Forest Hill Academy Mat Hr Sec School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-----------------services------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Crafting visually stunning and intuitively navigable websites that captivate users and elevate your online presence</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Crafting user-centric interfaces that blend aesthetics with intuitive functionality, ensuring a delightful and engaging experience for every user journey</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Designing apps that marry elegance with functionality, ensuring a user-centric and visually captivating experience</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!---------------portfolio--------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/work-1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Duty Dynamo</h3>
+                        <p>Providing customized freelance services to meet project requirements, ensuring high-quality results and innovative solutions.</p>
+                        <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work-2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>BookBar</h3>
+                        <p>Providing customized freelance services to meet project requirements, ensuring high-quality results and innovative solutions.</p>
+                        <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work-3.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Career Swift</h3>
+                        <p>Providing customized freelance services to meet project requirements, ensuring high-quality results and innovative solutions.</p>
+                        <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+
+
+    <!-----------------contact------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>hariprasath7112@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>8523923030</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="assets/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name='submit-to-google-sheet'>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Hariprasath V K.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz7XAenmHLEpdu4WhccZjZoTWghRZSYivhdLwpUqoizoPX376zENCWyhuYxUHs6dvdnTA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
